@@ -8,11 +8,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class country extends Actor
 {
-    int cash;
+    public int treasury;
     String color;
+    
+    public country(int treasury, String color)
+    {
+        this.treasury = treasury;
+        this.color = color;
+    }
     
     public void act() 
     {
         // Add your action code here.
     }    
+    
+    public void Cash(String owner, int amtToAdd)
+    {
+            treasury += amtToAdd;
+    }
 }
+

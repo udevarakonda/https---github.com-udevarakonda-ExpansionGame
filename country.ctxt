@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.target=country
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ country\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=void\ act()
-numComments=2
+comment1.params=treasury\ color
+comment1.target=country(int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=owner\ amtToAdd
+comment3.target=void\ Cash(java.lang.String,\ int)
+numComments=4

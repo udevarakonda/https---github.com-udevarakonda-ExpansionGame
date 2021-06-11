@@ -12,6 +12,10 @@ public class britain extends country
      * Act - do whatever the britain wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public britain()
+    {
+    super(0, "red");
+}
     public void act() 
     {
         // Add your action code here.

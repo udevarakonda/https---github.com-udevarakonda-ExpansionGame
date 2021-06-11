@@ -12,14 +12,15 @@ public class africaProvinces extends Actor
     int xlocation;
     int ylocation;
 
-    public String owner; //france, england, null/uncolonized
+    public country owner; //france, england, null/uncolonized
 
     //resources
     int wood;
     int gold;
     int diamonds;
+    int totalOutput = 0;
     
-    public africaProvinces(int xlocation, int ylocation, int wood, int gold, int diamonds, String owner)
+    public africaProvinces(int xlocation, int ylocation, int wood, int gold, int diamonds, country owner)
     {
       this.xlocation = xlocation;
       this.ylocation = ylocation;
@@ -33,10 +34,18 @@ public class africaProvinces extends Actor
     {
         setLocation(xlocation, ylocation);
         calcCash();
+        if (owner == britain)
+        {
+            Cash(britain, totalOutput);
+        }
     }
     public void calcCash()
     {
-       //britainCash += 2(wood) += 4(gold) += 6(diamonds);
+       int totalOutput = 2*wood + 4*gold + 6*diamonds;
     }
+    
+    public void bcashadd()
+    {
 
+    }
 }
