@@ -6,25 +6,50 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class country extends Actor
+public class Country extends Actor
 {
-    public int treasury;
-    String color;
+    private int treasury = 0;
+    private String color;
+    private String name;
     
-    public country(int treasury, String color)
+    /*
+    public Country(int treasury, String color)
     {
         this.treasury = treasury;
         this.color = color;
     }
+    */
     
+    public Country() {
+    }
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
     
+    public int getTreasury() {
+        return treasury;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public void setName(String newName) {
+        name = newName;
+    }
+    
+    public void setTreasury(int amountToAdd) {
+        treasury += amountToAdd;
+    }
+    
+    public void changeTreasury(int changeToAmt) {
+        treasury = changeToAmt;
+    }
+
     public void Cash(String owner, int amtToAdd)
     {
-            treasury += amtToAdd;
+        treasury += amtToAdd;
     }
 }
 

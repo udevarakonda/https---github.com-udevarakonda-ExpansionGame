@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EastSahel
+comment0.text=\n\ Write\ a\ description\ of\ class\ Province8\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=xlocation\ ylocation\ wood\ gold\ diamonds\ owner
+comment1.target=EastSahel(int,\ int,\ int,\ int,\ int,\ Country)
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Province8\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=theCape
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ theCape\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=theCape()
+comment0.target=TheCape
+comment0.text=\n\ Write\ a\ description\ of\ class\ theCape\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=xlocation\ ylocation\ wood\ gold\ diamonds\ owner
+comment1.target=TheCape(int,\ int,\ int,\ int,\ int,\ Country)
 comment2.params=
 comment2.target=void\ act()
 numComments=3

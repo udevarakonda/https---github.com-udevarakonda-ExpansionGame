@@ -6,15 +6,28 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class theCape extends africaProvinces
+public class TheCape extends africaProvinces
 {
-    public theCape()
-    {
-    super(300, 200, 1, 2, 4, "britain");
-}
+    GreenfootImage image = new GreenfootImage("TheCape_Image.png");
+    public TheCape(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
+        super(xlocation, ylocation, wood, gold, diamonds, owner);
+        setName("The Cape");
+        image.scale(120, 120);
+        setImage(image);
+    }
+    
     public void act() 
     {
-        // Add your action code here.
+        setLocation(getX(), getY());
+       int chance = Greenfoot.getRandomNumber(30);
+        if (chance == 1) {
+            cashAdd(1);
+        }
+         
+       if (Greenfoot.mouseClicked(this))
+        {
+            showInfo();
+        }
     }
     
 }

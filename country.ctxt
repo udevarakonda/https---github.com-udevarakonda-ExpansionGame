@@ -1,10 +1,21 @@
 #BlueJ class context
-comment0.target=country
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ country\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=treasury\ color
-comment1.target=country(int,\ java.lang.String)
+comment0.target=Country
+comment0.text=\n\ Write\ a\ description\ of\ class\ country\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Country()
+comment1.text=\n\ \ \ \ public\ Country(int\ treasury,\ String\ color)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ this.treasury\ \=\ treasury;\n\ \ \ \ \ \ \ \ this.color\ \=\ color;\n\ \ \ \ }\n
 comment2.params=
 comment2.target=void\ act()
-comment3.params=owner\ amtToAdd
-comment3.target=void\ Cash(java.lang.String,\ int)
-numComments=4
+comment3.params=
+comment3.target=int\ getTreasury()
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=newName
+comment5.target=void\ setName(java.lang.String)
+comment6.params=amountToAdd
+comment6.target=void\ setTreasury(int)
+comment7.params=changeToAmt
+comment7.target=void\ changeTreasury(int)
+comment8.params=owner\ amtToAdd
+comment8.target=void\ Cash(java.lang.String,\ int)
+numComments=9

@@ -17,9 +17,9 @@ public class Menu extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        addObject(message, 300, 75);
-        addObject(africa, 140, 200);
-        addObject(america, 420, 200);
+        addObject(message, 300, 50);
+        addObject(africa, 300, 225);
+        //addObject(america, 420, 200);
     }
     private Actor africa = new africaButton();
     private Actor america = new americaButton();
@@ -30,8 +30,9 @@ public class Menu extends World
     public void setMessage(String text)
     {
     GreenfootImage image = null;
-    if (text != null && !"".equals(text)) image = new GreenfootImage(text, 50, null, null);
+    if (text != null && !"".equals(text)) image = new GreenfootImage(text, 45, Color.RED, new Color(0,0,0));
     message.setImage(image);
+    
 }
     public void act() 
     {
