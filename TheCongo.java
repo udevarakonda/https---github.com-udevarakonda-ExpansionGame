@@ -17,7 +17,7 @@ public class TheCongo extends africaProvinces
     public TheCongo(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
         super(xlocation, ylocation, wood, gold, diamonds, owner);
         setName("The Congo");
-        image.scale(120, 120);
+        image.scale(120, 200);
         setImage(image);
     }
     

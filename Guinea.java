@@ -17,7 +17,7 @@ public class Guinea extends africaProvinces
     public Guinea(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
         super(xlocation, ylocation, wood, gold, diamonds, owner);
         setName("Guinea");
-        image.scale(120, 120);
+        image.scale(120, 60);
         setImage(image);
     }
     

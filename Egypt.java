@@ -16,7 +16,7 @@ public class Egypt extends africaProvinces
     public Egypt(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
         super(xlocation, ylocation, wood, gold, diamonds, owner);
         setName("Egypt");
-        image.scale(120, 120);
+        image.scale(120, 60);
         setImage(image);
     }
     

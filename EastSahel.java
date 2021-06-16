@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class EastSahel extends africaProvinces
 {
+    GreenfootImage image = new GreenfootImage("EastSahel_Image.png");
     /**
      * Act - do whatever the Province8 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -16,6 +17,8 @@ public class EastSahel extends africaProvinces
     public EastSahel(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
         super(xlocation, ylocation, wood, gold, diamonds, owner);
         setName("East Sahel");
+        image.scale(120, 60);
+        setImage(image);
     }
     
     public void act() 

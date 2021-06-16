@@ -17,7 +17,7 @@ public class WestSahel extends africaProvinces
     public WestSahel(int xlocation, int ylocation, int wood, int gold, int diamonds, Country owner) {
         super(xlocation, ylocation, wood, gold, diamonds, owner);
         setName("West Sahel");
-        image.scale(120, 120);
+        image.scale(170, 60);
         setImage(image);
     }
     

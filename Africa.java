@@ -19,12 +19,12 @@ public class Africa extends World
     TheCongo theCongo = new TheCongo(280, 250, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, britain);
     GreatValley greatValley = new GreatValley(350, 255, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, america);
     TheHorn theHorn = new TheHorn(350, 170, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, france);
-    Nigeria nigeria = new Nigeria(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, russia);
-    Guinea guinea = new Guinea(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, britain);
-    WestSahel westSahel = new WestSahel(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, america);
-    EastSahel eastSahel = new EastSahel(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, france);
-    Egypt egypt = new Egypt(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, america);
-    Maghreb maghreb = new Maghreb(10, 10, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, russia);
+    Nigeria nigeria = new Nigeria(250, 180, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, russia);
+    Guinea guinea = new Guinea(143, 160, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, britain);
+    WestSahel westSahel = new WestSahel(170, 110, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, america);
+    EastSahel eastSahel = new EastSahel(280, 125, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, france);
+    Egypt egypt = new Egypt(280, 80, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, america);
+    Maghreb maghreb = new Maghreb(170, 60, Greenfoot.getRandomNumber(20) + 10, Greenfoot.getRandomNumber(10) + 7, Greenfoot.getRandomNumber(5) + 3, russia);
     
     /**
      * Constructor for objects of class Africa.
